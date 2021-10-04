@@ -12,7 +12,7 @@ public class WorldLibrary {
         this.planetName = planetName;
     }
 
-    public static String getName() {
+    public String getName() {
         return "Laila";
     }
 }

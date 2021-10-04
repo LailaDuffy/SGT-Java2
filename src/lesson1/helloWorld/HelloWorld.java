@@ -8,7 +8,7 @@ public class HelloWorld {
         WorldLibrary theWorld = new WorldLibrary();
         theWorld.setPlanetName("Earth");
 
-        System.out.println("Welcome to JAVA2 Course! " + WorldLibrary.getName());
+        System.out.println("Welcome to JAVA2 Course! " + theWorld.getName());
         System.out.println("I live on planet named " + theWorld.getPlanetName());
 
         theWorld.setPlanetName("Mars");
