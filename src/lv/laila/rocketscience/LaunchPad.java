@@ -27,11 +27,11 @@ public class LaunchPad {
         System.out.println("Name of the rocket: " + rocket1.getName());
         System.out.println("Name of the rocket: " + rocket2.getName());
 
-        // Not the best way to change the weight, only changes it locally
+        // Not the best way to change the weight, only changes it locally within the method
         changeTheWeight(rocket1.getWeight(), 1000);
         System.out.println("The weight of the rocket stayed the same outside of the method: " + rocket1.getWeight());
 
-        // The right way to change the weight
+        // The right way to change the weight, changes it in the original object
         rocket1.setWeight(1000);
 
         Rocket rocket3 = new Rocket("Enterprise", "red", 100, 200, new Engine(), "third");
