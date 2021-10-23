@@ -11,8 +11,11 @@ public class FrontPageController {
     @GetMapping("/frontpage")
     public String getFrontPage(Model model){
         model.addAttribute("myName", "Laila");
+        model.addAttribute("mySurname", "Duffy");
         return "frontpage.html";
     }
+
+
 
     @GetMapping("/resume")
     public String getResumePage(Model model, @RequestParam(value = "param1", required = false) String param1){

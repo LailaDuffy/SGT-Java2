@@ -1,12 +1,73 @@
-i {
-    color: purple;
+code, pre {
+    background-color: #f4f4f7;
 }
 
-#unique-element {
-    background-color: #AABBCC;
+.header-wrapper {
+    background-color: pink;
 }
 
-.third-class {
-    color: rgba(125, 45, 643, 0.5);
-    font-size: 50;
+body {
+    color: green;
+    text-align: left;
+    }
+
+div{
+    text-align: center;
+    color: blue;
 }
+
+.header-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header{
+    margin-right: auto;
+    text-align: left;
+}
+
+.name{
+    text-align: left;
+    color: red;
+    font-size: 100px;
+}
+
+.description{
+    text-align: left;
+    color: grey;
+    font-size: 50px;
+}
+
+footer{
+    font-size: 30px;
+    color: black;
+    background-color: pink;
+}
+
+#courseName{
+    text-align: left;
+    font-size: 30px;
+    color: black;
+}
+
+#link{
+    text-align: right;
+    font-size: 30px;
+}
+
+.project-name{
+    text-align: left;
+    color: red;
+    font-size: 50px;
+}
+
+.project-image{
+    text-align: left;
+}
+
+.project-description{
+    text-align: left;
+    font-size: 30px;
+    color: green;
+}
+
