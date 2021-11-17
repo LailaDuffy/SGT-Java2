@@ -1,6 +1,5 @@
-package Lesson21;
+package lesson21;
 
-import java.sql.SQLOutput;
 import java.util.*;
 
 public class Lesson21Deque {
